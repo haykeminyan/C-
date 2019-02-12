@@ -1,0 +1,22 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int min4(int a,int b,int c);
+
+
+
+int min(int a,int b)
+{
+    switch(a)
+    {
+        case 1: a>b;return b;break;
+        case 2: a<b;return a;break;
+    }
+}
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    cout<<min(a,b);
+    return 0;
+}
